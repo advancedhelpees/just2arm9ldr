@@ -49,7 +49,7 @@ static bool fileRead(void *dest, const char *path, u32 maxSize)
 
 static bool readPayload(void)
 {
-    return mountFs() && fileRead((void *)0x23F00000, "/SafeB9S.bin", 0x100000);
+    return mountFs() && fileRead((void *)0x23F00000, "/JustB9S.bin", 0x100000);
 }
 
 static void resetDSPAndSharedWRAMConfig(void)
