@@ -14,5 +14,4 @@ exceptions/arm11/build
 *.elf
 *.cxi
 *.bat
-B9
 .DS_Store
